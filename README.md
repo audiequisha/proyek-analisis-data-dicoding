@@ -7,7 +7,7 @@ Proyek ini merupakan *submission* tugas akhir dari kelas **Belajar Analisis Data
 
 ## Tautan Dashboard
 Dashboard interaktif dari proyek ini telah di-deploy ke Streamlit Community Cloud dan dapat diakses melalui tautan berikut:
-**[MASUKKAN TAUTAN STREAMLIT KAMU DI SINI]**
+https://tjojzngpheb4irryuedcvz.streamlit.app/
 
 ## Persyaratan (*Requirements*)
 Untuk menjalankan proyek ini di komputer lokal, pastikan Anda telah menginstal beberapa *library* Python berikut:
