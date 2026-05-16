@@ -21,3 +21,19 @@ conda activate proyek_ds
 pip install -r requirements.txt
 cd dashboard
 streamlit run dashboard.py
+```
+
+### Menggunakan Python venv (Bawaan Windows/Mac)
+Jika Anda tidak menggunakan Anaconda, buka Terminal / Command Prompt dan jalankan:
+```bash
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+python -m venv env
+# Untuk pengguna Windows:
+env\Scripts\activate
+# Untuk pengguna Mac/Linux:
+source env/bin/activate
+
+pip install -r requirements.txt
+cd dashboard
+streamlit run dashboard.py```
