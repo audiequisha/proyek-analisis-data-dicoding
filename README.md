@@ -1,30 +1,23 @@
 # proyek-analisis-data-dicoding
 
-# E-Commerce Public Dataset - Data Analysis Dashboard ✨
+# Proyek Analisis Data E-Commerce 📦
 
 ## Deskripsi Proyek
-Proyek ini merupakan *submission* tugas akhir dari kelas **Belajar Analisis Data dengan Python** di Dicoding. Proyek ini menganalisis dataset *E-Commerce Public* untuk menjawab pertanyaan bisnis terkait dampak keterlambatan pengiriman terhadap kepuasan pelanggan, serta memetakan pola spasial waktu transaksi.
+Proyek ini merupakan submission tugas akhir dari kelas **Belajar Analisis Data dengan Python** di Dicoding. Proyek ini bertujuan untuk mengeksplorasi dataset E-Commerce guna menghasilkan *insight* bisnis terkait performa logistik (pengaruh lama waktu keterlambatan terhadap kepuasan) dan analisis pola waktu transaksi untuk penjadwalan *Flash Sale*.
 
-## Tautan Dashboard
-Dashboard interaktif dari proyek ini telah di-deploy ke Streamlit Community Cloud dan dapat diakses melalui tautan berikut:
-https://tjojzngpheb4irryuedcvz.streamlit.app/
+## Struktur Direktori
+- `/data`: Berisi dataset mentah yang digunakan.
+- `/dashboard`: Berisi script `dashboard.py` untuk menjalankan Streamlit.
+- `notebook.ipynb`: Berkas Jupyter Notebook yang berisi alur analisis data secara lengkap.
+- `requirements.txt`: Daftar library Python yang dibutuhkan.
 
-## Persyaratan (*Requirements*)
-Untuk menjalankan proyek ini di komputer lokal, pastikan Anda telah menginstal beberapa *library* Python berikut:
-- `pandas`
-- `matplotlib`
-- `seaborn`
-- `streamlit`
+## Setup Environment & Run Dashboard
 
-Anda dapat menginstal seluruh kebutuhan tersebut menggunakan berkas `requirements.txt`.
-
-## Cara Menjalankan Dashboard Secara Lokal
-Jika Anda ingin mengeksekusi dashboard ini di mesin lokal, ikuti langkah-langkah berikut:
-
-### 1. Buka Terminal / Command Prompt
-Arahkan direktori aktif pada terminal Anda ke dalam folder proyek ini (tempat di mana berkas `dashboard.py` berada).
-
-### 2. Instalasi Dependensi
-Jalankan perintah berikut untuk menginstal semua *library* yang diperlukan:
+### Menggunakan Anaconda (Rekomendasi)
+Jika Anda menggunakan Anaconda, buka Anaconda Prompt dan jalankan perintah berikut:
 ```bash
+conda create --name proyek_ds python=3.9
+conda activate proyek_ds
 pip install -r requirements.txt
+cd dashboard
+streamlit run dashboard.py
